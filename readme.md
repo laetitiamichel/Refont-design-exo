@@ -5,7 +5,7 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 
 > *Pour travailler plus confortablement procédez à un clône de ce dépôt git*
 > A la fin de votre réalisation créez un dépôt git avec l'affichage de la page d'index surle navigateur. 
-> L'exercise sera  noté /20
+> L'exercice sera  noté /20
 
 ![AUR license](https://img.shields.io/aur/license/c)
 
