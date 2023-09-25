@@ -5,7 +5,7 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 
 > *Pour travailler plus confortablement procédez à un clône de ce dépôt git*.
 > A la fin de votre réalisation créez un dépôt git avec l'affichage de la page d'index sur le navigateur.
-> Trasmettez moi le lien sur mon spread-sheet que je vous est partagé 
+> Trasmettez moi le lien sur mon spread-sheet que je vous est partagé. 
 > L'exercice sera  noté /20
 
 ![AUR license](https://img.shields.io/aur/license/c)
