@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.main{
+body{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../asset/1.jpg);
     background-position: center;
