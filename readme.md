@@ -27,6 +27,7 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 
 # **HTML:**
 Dans le HEAD, il manque :
+* la langue doit être mise en FR 
 * les méta pour l'accessibilité des non-voyants
 * pour la compatibilité sur les différents supports
 * méta description pour le référencement naturel
