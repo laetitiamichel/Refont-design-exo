@@ -24,7 +24,7 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
     *  
 # POINTS FAIBLES:
     * l'accessibilité pourrait être amélioré en changeant les couleurs de Font
-    
+
 # **HTML:**
 Dans le HEAD, il manque :
     * les méta pour l'accessibilité des non-voyants
@@ -96,3 +96,6 @@ Dans le HEAD, il manque :
         * balise "v" ni fermée ni ouverte erreur de balise et sémantique
     9. From line 62, column 5; to line 62, column 10:
         * balise div mal fermée
+
+### Les erreurs ont été corrigées:
+![w3c](./asset/w3c.png)
