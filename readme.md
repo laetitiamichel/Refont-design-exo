@@ -15,11 +15,16 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 ## CHARTE GRAPHIQUE
 ![charteGraphique](./asset/chartreGraphique.png)
 
-# POINTS FORT:
+## ACCESSIBILITE
+![accessibilité](./asset/accessibilite.png)
+
+# POINTS FORTS:
     * identité visuelle affirmée
     * ergonomie et visibilité de la page
     *  
-
+# POINTS FAIBLES:
+    * l'accessibilité pourrait être amélioré en changeant les couleurs de Font
+    
 # **HTML:**
 Dans le HEAD, il manque :
     * les méta pour l'accessibilité des non-voyants
