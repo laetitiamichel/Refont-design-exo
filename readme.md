@@ -10,7 +10,7 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 
 ![AUR license](https://img.shields.io/aur/license/c)
 
-## LIEN du site: [home page](https://laetitiamichel/Refont-design-exo/)
+## LIEN du site: [home page](https://laetitiamichel.github.io/Refont-design-exo/)
 
 ## CHARTE GRAPHIQUE
 ![charteGraphique](/asset/chartreGraphique.png)
