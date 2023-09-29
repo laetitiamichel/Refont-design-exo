@@ -13,7 +13,12 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 ## LIEN du site: [home page](https://laetitiamichel.github.io/Refont-design-exo/)
 
 ## CHARTE GRAPHIQUE
-![charteGraphique](/asset/chartreGraphique.png)
+![charteGraphique](./asset/chartreGraphique.png)
+
+# POINTS FORT:
+    * identité visuelle affirmée
+    * ergonomie et visibilité de la page
+    *  
 
 # **HTML:**
 Dans le HEAD, il manque :
