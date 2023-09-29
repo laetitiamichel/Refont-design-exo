@@ -61,6 +61,8 @@ Dans le HEAD, il manque :
     
 `<button class="btnn" aria-label="bouton Login">Login</button>`
    * J'ai rajouté les atributs aria-label pour augmenter l'accessibilité 
+   * j'ai rajouté des LABEL pour les input pour l'accessibilité
+   * j'ai rajouter des rôles au DIV 
 
 
 ## ERREUR W3C:
@@ -115,6 +117,6 @@ J'ai rajouté ce code au début du fichier css:
 `html{ /* sélecteur propriété valeur */
     font-size: 62.5%;  /* 1.000rem root em 10px */
 }`
+pour mettre une racine au fichier CSS
 
-<label for="ptipois">Est-ce que vous aimez les petits pois ?</label>
-<input type="checkbox" name="petitspois" id="ptipois" />
+par exemple => margin-left: 62px; = 6.2rem 

@@ -8,6 +8,7 @@ html{ /* sélecteur propriété valeur */
 }
 
 body{
+    font: 1.6rem sans-serif;
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../asset/1.jpg);
     background-position: center;
@@ -52,7 +53,7 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 62px;
+    margin-left: 62px; /* 6.2rem */
     margin-top: 27px;
     font-size: 14px;
 }

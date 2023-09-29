@@ -10,19 +10,19 @@ a quae totam ipsa illum minus laudantium?">
 <title>Webpage Design</title>
 <link rel="stylesheet" href="./css/screen.css">
 <!-- link pour favicon-->
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="manifest" href="./favicon/site.webmanifest">
 </head>
 <body>
-<div class="main">
+<main class="main">
     <nav class="navbar">
         <div class="icon">
             <h2 class="logo"> Laetitia MICHEL</h2>
         </div>
 
-        <div class="menu">
+        <div class="menu" role="banner">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
@@ -32,7 +32,7 @@ a quae totam ipsa illum minus laudantium?">
             </ul>
         </div>
 
-        <div class="search">
+        <div class="search" role="searchbox" aria-labelledby="search">
             <label for="search">
             <input class="srch" type="search" name="bouton recherche" id="search" placeholder="Type To text"/></label>
             <button class="btn" aria-label="bouton recherche">Search</button>
@@ -47,7 +47,7 @@ a quae totam ipsa illum minus laudantium?">
 
             <button class="cn" aria-label="bouton join us">JOIN US</button>
 
-            <div class="form">
+            <div class="form" role="form">
                 <h2>Login Here</h2>
                 <label for="email"><input type="email" name="email" id="email" placeholder="Enter Email Here"/></label>
                 <label for="password"><input type="password" name="password" id="password" placeholder="Enter Password Here"/></label>
@@ -58,7 +58,7 @@ a quae totam ipsa illum minus laudantium?">
                     <a>here</a></p>
                 <p class="liw">Log in with</p>
 
-                <div class="icons">
+                <div class="icons" role="contentinfo">
                     <a href="#" alt="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
                     <a href="#" alt="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
                     <a href="#" alt="logo-twitter"><ion-icon name="logo-twitter"></ion-icon></a>
@@ -66,8 +66,9 @@ a quae totam ipsa illum minus laudantium?">
                     <a href="#" alt="skype"><ion-icon name="logo-skype"></ion-icon></a>
                 </div>
             </div>
-    </div>
-</div>
+    
+</main>
+
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
