@@ -1,7 +1,8 @@
 #**Refont web : développement** 🚀 
 ![cover](./cover.PNG)
 >Cette interface web à l’apparence très propre et bien designée, présente des erreurs de structuration. Les entêtes du document ne sont pas renseignées.
-Par simple analyse écrite, minimum une page. Détaillez les points forts et faibles de cette page structurée en  HTML (_div vs semantique_) et css. Dans le validator W3C il y a 9 erreurs à corriger. Du coté css il faut appliquer l'unité de mesure REM :  n'oublié pas de déclarer la racine. Argumentez les erreurs que le développeur commet dans son approche techniques. Il y a également des erreurs d'accessiblité: veuillez m'en décrire quelques uns et m'expliquer la raison. A la fin de votre analyse réalisez la refonte de la page
+Par simple analyse écrite, minimum une page. Détaillez les points forts et faibles de cette page structurée en  HTML (_div vs semantique_) et css. Dans le validator W3C il y a 9 erreurs à corriger. 
+Du coté css il faut appliquer l'unité de mesure REM :  n'oublié pas de déclarer la racine. Argumentez les erreurs que le développeur commet dans son approche techniques. Il y a également des erreurs d'accessiblité: veuillez m'en décrire quelques uns et m'expliquer la raison. A la fin de votre analyse réalisez la refonte de la page
 
 > *Pour travailler plus confortablement procédez à un clône de ce dépôt git*.
 > A la fin de votre réalisation créez un dépôt git avec l'affichage de la page d'index sur le navigateur.
@@ -24,6 +25,9 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 *   
 # POINTS FAIBLES:
 * l'accessibilité pourrait être amélioré en changeant les couleurs de Font
+* les méta et les links n'étaient pas renseignés
+* des balises buttons étaient associées à des balises a ce qui créé des erreurs
+* les balises input doivent être implémentées avec des labels afin d'être Cela améliore l'accessibilité et l'utilisabilité pour les personnes voyantes, en augmentant la zone d'interaction possible pour activer le contrôle du formulaire au clic ou au toucher.
 
 # **HTML:**
 Dans le HEAD, il manque :
@@ -103,3 +107,14 @@ Dans le HEAD, il manque :
 ### Les erreurs ont été corrigées:
 
 ![w3c](./asset/w3c.png)
+
+# CSS:
+
+J'ai rajouté ce code au début du fichier css:
+
+`html{ /* sélecteur propriété valeur */
+    font-size: 62.5%;  /* 1.000rem root em 10px */
+}`
+
+<label for="ptipois">Est-ce que vous aimez les petits pois ?</label>
+<input type="checkbox" name="petitspois" id="ptipois" />
