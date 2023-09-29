@@ -35,16 +35,17 @@ Dans le HEAD, il manque :
     ![Alt text](image.png)
 
 ## Dans le Body:
+
     * il n'y a pas de HEADER ni de MAIN pour structurer le HTML:
     j'ai donc rajouté un header dans le body afin d'y disposer le menu 
-    ```<body>
+    `<body>
     <header>
         <nav class="navbar">
             <div class="icon">
                 <h2 class="logo">
                     Laetitia MICHEL
                 </h2>
-            </div>```
+            </div>`
 
 
 ### ERREUR W3C:
@@ -55,6 +56,14 @@ Dans le HEAD, il manque :
         * <input class="srch" type="search" name="" placeholder="Type To text">
         * il manque le name en "" 
         * j'ai rajouté : "barreRecherche"
+        `<div class="search">
+                <input class="srch" type="search" name="barreRecherche" placeholder="Type To text">
+                <!--<a href="#"> -->
+                <button class="btn">
+                    Search
+                </button>
+                <!--</a>-->
+            </div>`
 
     3. From line 28, column 30; to line 28, column 49 :
         *   href="#"> <button class="btn">Search
