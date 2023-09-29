@@ -36,16 +36,16 @@ Dans le HEAD, il manque :
 
 ## Dans le Body:
 
-    * il n'y a pas de HEADER ni de MAIN pour structurer le HTML:
-    j'ai donc rajouté un header dans le body afin d'y disposer le menu 
-    `<body>
-    <header>
-        <nav class="navbar">
-            <div class="icon">
-                <h2 class="logo">
-                    Laetitia MICHEL
-                </h2>
-            </div>`
+    
+    * les balises a et button ne peuvent pas être associées, j'ai donc modifié le code comme ceci: 
+```<button class="cn" aria-label="bouton join US">
+                JOIN US
+            </button>```
+    * j'ai supprimé des balises fermantes DIV qui ne devaient pas exister
+    * <button class="btnn" aria-label="bouton Login">
+                    Login
+                </button>
+                J'ai rajouté les atributs aria-label pour augmenter l'accessibilité 
 
 
 ### ERREUR W3C:
