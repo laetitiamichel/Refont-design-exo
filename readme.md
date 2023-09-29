@@ -14,19 +14,22 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 
 # **HTML:**
 Dans le HEAD, il manque :
-    *les méta pour l'accessibilité des non-voyants
-    *pour la compatibilité sur les différents supports
-    *méta description pour le référencement naturel
+    * les méta pour l'accessibilité des non-voyants
+    * pour la compatibilité sur les différents supports
+    * méta description pour le référencement naturel
 
-    *<meta charset="UTF-8">
-    *<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    *<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    *<meta name="description" content="web design and developpment">
+    * <meta charset="UTF-8">
+    * <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    * <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    * <meta name="description" content="web design and developpment">
 
 ### pour les link, il manque :
-    *type="text/css" dans le link de la CSS
-    *il n'y a pas de link FAVICON ni de manifest
-    *link rel="manifest" href="favicon/site.webmanifest"
+    * type="text/css" dans le link de la CSS
+    * il n'y a pas de link FAVICON ni de manifest
+    Je l'ai donc rajouté grâce au convertor favicon
+    j'ai également converti le fichier Json du manifest et mis à jour les liens du Link
+    * link rel="manifest" href="favicon/site.webmanifest"
+    ![Alt text](image.png)
 
 ## Dans le Body:
     *il n'y a pas de HEADER ni de MAIN pour structurer le HTML:
