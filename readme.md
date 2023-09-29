@@ -10,7 +10,7 @@ Par simple analyse écrite, minimum une page. Détaillez les points forts et fai
 
 ![AUR license](https://img.shields.io/aur/license/c)
 
-## LIEN du site: [https://github.com/laetitiamichel/Refont-design-exo]
+## LIEN du site: [home page](https://github.com/laetitiamichel/Refont-design-exo)
 
 # **HTML:**
 Dans le HEAD, il manque :
